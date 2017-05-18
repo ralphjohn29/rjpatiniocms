@@ -1,0 +1,19 @@
+.fld {
+    margin: 15px 0 15px 0px;
+    position: relative;
+}
+
+.fld:before {
+    content: "*";
+    position: absolute;
+    top: 7px;
+    right: calc(1% - 17px);
+    color:red;
+}
+#star{
+    color: red;
+    
+}
+.pager li .active_link {
+    background: #513e2e !important;
+}
